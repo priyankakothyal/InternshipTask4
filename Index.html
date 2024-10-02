@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBook Landing Page</title>
+
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CDN for icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <div class="nav-links">
+                <a href="#">Run a Test</a>
+            </div>
+            <div class="nav-links">
+                <a href="#">Content</a>
+                <a href="#">Settings</a>
+                <a href="#">Optimize</a>
+                <a href="#">Publishing Options</a>
+            </div>
+            <div class="nav-links">
+                <a href="#">Preview</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <!-- Left Sidebar (Edit Page) -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <a href="#">Home &gt;</a>
+                <span>Edit page</span>
+            </div>
+            <div class="sidebar-content">
+                <input type="search" placeholder="Search modules">
+
+                <div class="module">
+                    <i class="fab fa-blogger-b module-icon"></i>
+                    <p>Blog post listing</p>
+                </div>
+                <div class="module">
+                    <i class="fas fa-plus-square module-icon"></i>
+                    <p>Button</p>
+                </div>
+                <div class="module">
+                    <i class="fas fa-icon module-icon"></i>
+                    <p>Icon</p>
+                </div>
+                <div class="module">
+                    <i class="fas fa-user module-icon"></i>
+                    <p>Profile</p>
+                </div>
+                <div class="module">
+                    <i class="fab fa-facebook-square module-icon"></i>
+                    <p>Social follow</p>
+                </div>
+                <div class="module">
+                    <i class="fas fa-comment-dots module-icon"></i>
+                    <p>Testimonial slider</p>
+                </div>
+
+                <h4>Common modules (13)</h4>
+                <div class="module">
+                    <i class="fas fa-file-alt module-icon"></i>
+                    <p>Rich Text</p>
+                </div>
+                <div class="module">
+                    <i class="fas fa-image module-icon"></i>
+                    <p>Image</p>
+                </div>
+                <div class="module">
+                    <i class="fas fa-heading module-icon"></i>
+                    <p>Header</p>
+                </div>
+                <div class="module">
+                    <i class="fas fa-bullhorn module-icon"></i>
+                    <p>Call to Action</p>
+                </div>
+                <div class="module">
+                    <i class="fas fa-envelope module-icon"></i>
+                    <p>Form</p>
+                </div>
+                <div class="module">
+                    <i class="fas fa-images module-icon"></i>
+                    <p>Image Gallery</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content-section">
+            <div class="hero-section">
+                <h1>eBook</h1>
+                <h2>5 Ways to Build a Website on the Cheap</h2>
+            </div>
+            <div class="whats-inside">
+                <h3>What's Inside?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui orci, pulvinar sit amet ligula vel.</p>
+                <ul>
+                    <li>Far far away, behind the word mountains, from the countries Vokalia</li>
+                    <li>Far far away, behind the word mountains, from the countries Vokalia</li>
+                    <li>Far far away, behind the word mountains, from the countries Vokalia</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Form Section -->
+        <div class="form-section">
+            <h3>Send me the ebook!</h3>
+            <form>
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="fname">First name</label>
+                <input type="text" id="fname" name="fname">
+
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" name="lname">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
